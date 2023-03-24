@@ -293,6 +293,8 @@ class Mention {
       render.denotationChar = "";
     }
 
+
+
     var insertAtPos;
 
     if (!programmaticInsert) {
