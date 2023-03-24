@@ -5,7 +5,7 @@
   "homepage": "https://quill-mention.com/",
   "main": "dist/quill.mention.csj.js",
   "module": "dist/quill.mention.esm.js",
-  "repository": "https://github.com/quill-mention/quill-mention.git",
+  "repository": "https://github.com/Bryan-Hui/quill-mention.git",
   "author": "Fredrik Sundqvist <fsundqvist@gmail.com>",
   "license": "MIT",
   "files": [
