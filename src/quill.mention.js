@@ -293,8 +293,6 @@ class Mention {
       render.denotationChar = "";
     }
 
-
-
     var insertAtPos;
 
     if (!programmaticInsert) {
@@ -304,8 +302,8 @@ class Mention {
         this.cursorPos - this.mentionCharPos,
         Quill.sources.USER
       );
-    } else if (typeof programmaticInsert === 'number') {
-      insertAtPos = programmaticInsert
+    } else if (typeof programmaticInsert === 'string' && programmaticInsert[0] === '@') {
+      insertAtPos = Number(programmaticInsert.slice(1))
     } else {
       insertAtPos = this.cursorPos;
     }
